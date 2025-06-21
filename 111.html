@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>第四版</title>
+    <link rel="stylesheet" href="css/index.css"></link>
+<style>
+  body {
+    font-family: "SimSun", "宋体", serif;
+    font-size: 16px; /* 可根据需要调整 */
+  }
+</style>
+</head>
+<body>
+
+    <div class="sidebar">
+        <ul class="nav-list">
+          <li class="nav-item" data-target="title1_bg">
+            <div id="bg1" class="bg">
+                <div class="text">报案</div>
+            </div>
+          </li>
+          <li class="nav-item" data-target="title2_bg">
+            <div id="bg2" class="bg">
+                <div class="text">立案</div>
+            </div>
+          </li>
+          <li class="nav-item" data-target="title3_bg">
+            <div id="bg3" class="bg">
+                <div class="text">侦查</div>
+            </div>
+          </li>
+          <li class="nav-item" data-target="title4_bg">
+            <div id="bg4" class="bg">
+                <div class="text">判罚</div>
+            </div>
+          </li>
+          <li class="nav-item" data-target="title5_bg">
+            <div id="bg5" class="bg">
+                <div class="text">破局</div>
+            </div>
+          </li>
+          <li class="nav-item" data-target="big_title_bg">
+            <div id="bg6" class="bg">
+                <div class="text">↑</div>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+    <div class="big_title_bg">
+        <img class="big_title_img" src="assets/one/总标题“隔空猥亵的罪与罚”.png" alt="">
+    </div>
+
+    <div class="dialog_function_area">
+        <div class="dialog content_center">
+            <div id="begin_dialog" class="dialog_contont active">
+                <p class="question">
+                    你是一个小女孩，这一天你的QQ收到三条好友请求，对方给你发来了一下消息，你回复了（）
+                </p>
+                <ul>
+                    <li>
+                        <span class="option" data-answer="A">A.cpdd</span>
+                    </li>
+                    <li>
+                        <span class="option" data-answer="B">B.处闺吗</span>
+                    </li>
+                    <li>
+                        <span class="option" data-answer="C">C.您好，我实创星娱乐的星探，我发现你很有天赋，要试一下吗？我们可以包装你成为明星哦</span>
+                    </li>
+                </ul>
+            </div>
+            <div id="A-1" class="dialog_contont hidden">
+                <div>
+                    <div class="left">
+                        <p>你同意和对方成为情侣关系，在经过一段时间的“热恋”后，对方以恋爱的名义向你要隐私部位的照片并希望视频聊天。</p>
+                    </div>
+                    <div class="right">
+                        <img src="assets/对话框交互1/情侣线1.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div id="A-2" class="dialog_contont hidden" >
+                <p id="p1">屏幕那端的真相：</p>
+                <p id="p2">对方是一个对青春期前的儿童具有强烈且反复性冲动与幻想的中年男子，他通过说服哄骗甚至威胁的方式，
+                    让处于恋爱关系中的你同意了发送照片。之后，当你想要拒绝的时候，他会用已有的照片威胁你拍摄发送更多的照片与视频。</p>
+                <div class="try_agin">
+                    <button>重来一次</button>
+                </div>                    
+            </div>
+            <div id="B-1" class="dialog_contont hidden">
+                <div>
+                    <div class="left">
+                        <p>你与对方成为闺蜜关系，对方说觉得自己发育有些问题并给你发送自己的隐私照，之后向你索要胸部等隐私部位照片。</p>
+                    </div>
+                    <div class="right">
+                        <img src="assets/对话框交互1/闺蜜线1.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div id="B-2" class="dialog_contont hidden">
+                <p id="p1">屏幕那端的真相：</p>
+                <p id="p2">对方展现出弱势的一面，使你产生恻隐之心，发送了自己的私密照片，但对方其实是一位 26 岁的成年男性，为满足自己的性欲诱骗你发送私密照片，他用这个照片威胁你发送更多私密照片，从此你一直笼罩在他的阴影之下。</p>
+                <div class="try_agin">
+                    <button>重来一次</button>
+                </div>       
+            </div>
+            <div id="C-1" class="dialog_contont hidden">
+                <div>
+                    <div class="left">
+                        <p>你添加了 “星探”，询问他怎么成为明星，“星探” 让你发一些自拍以及不穿衣服的照片进行检检。</p>
+                    </div>
+                    <div class="right">
+                        <img src="assets/对话框交互1/星探线1.png" alt="">
+                    </div>
+                </div>
+            </div>
+    
+            <div id="C-2" class="dialog_contont hidden">
+                <p id="p1">屏幕那端的真相：</p>
+                <p id="p2">“星探” 其实是 40 岁中年男子，他到处以星探的名义收集幼童的裸照，是为了满足自己恋童癖的变态快感。他收集到你的照片后又以裸照威胁你继续给他发送更多的照片和视频。
+                </p>
+                <div class="try_agin">
+                    <button>重来一次</button>
+                </div>       
+            </div>
+        </div>
+        <p>游戏中的对话均根据真实案例改编</p>
+    </div>
+
+    <div id="txt1" class="txt content_center">
+        <p class="p1">刚刚聊天中所展示的，是在网络快速发展后产生的一种针对未成年人的性犯罪行为——</p>
+        <div class="gekongweixie">
+          <img src="assets/one/隔空猥亵四个字.png" alt="">
+        </div>
+        <p style="margin-top: 50px;">即行为人以达到刺激或满足性欲为目的，利用网络社交工具，对未成年人实施的非直接身体接触的猥亵行为。</p>
+    </div>
+
+    <div id="example1" class="example content_center">
+        <div class="left">
+            <div id="group1" class="text-group active" data-index="0">
+              <p>2024 年，13 岁的苏苏在抖音上认识了一个配音主播，互关之后，两人频繁聊天。对方 35 岁，但苏苏还是对他产生了好感，两人迅速确定了恋爱关系。</p>
+              <p>之后，苏苏告知了对方自己的年龄，主播在明确苏苏是未成年的情况下依然与其交往。</p>
+            </div>
+            <div id="group2" class="text-group hidden" data-index="1">
+              <p>苏苏很听话，男友叫她发一些照片，从自拍、身材照到裸照，苏苏几乎答应了对方所有的过分要求。</p>
+              <p>年幼的苏苏当时完全不知道对方向未成年索要裸照等类似的行为，实际上已经触犯了《刑法》第二百三十七条猥亵儿童罪，而在感到不舒服时她只会用沉默来抗议……</p>
+            </div>
+          </div>
+          <div class="right">
+            <img src="assets/one/插图1.png" alt="">
+          </div>
+    </div>
+
+    <div id="txt2" class="txt content_center">
+        <p>苏苏的故事并非个案，作为一种隐蔽且高发的网络性侵形式，隔空猥亵近年频频出现在公众视野，但真正被依法追责的案例却寥寥无几。</p>
+        <div class="a7761-3000">
+          <img src="assets/one/7761          3000+.png" alt="">
+        </div>
+        <p>2020 年至 2022 年，全国检察机关起诉利用电信网络侵害未成年人犯罪嫌疑人 <span class="hightlight">7761 人</span>，但截至 2023 年 9 月，被追诉定罪的仅有 <span class="hightlight"> 3000 余人</span>，追诉成功比例甚至不到 <span class="hightlight"> 40%</span>。相比之下，电信诈骗犯罪的追诉比可以达到 <span class="hightlight"> 70% </span>以上。</p>
+        <p><span class="hightlight">频发与追责之间的落差，暴露出 “隔空猥亵” 在司法实践中的追诉困境。</span></p>
+    </div>
+
+    <div class="title1_bg">
+        <div class="title1_img">
+            <img  src="assets/one/小标题1：报案 迈不出的脚步.png" alt="">
+        </div>
+        
+    </div>
+
+    <div id="txt3" class="txt content_center">
+        <p><span class="hightlight">追诉之难，首先源于报案缺失，而这往往是因为案件未被及时发现。</span>究其原因，家长和学校缺位、平台监管不力、罪犯易于伪装共同导致了隔空猥亵犯罪案件具有极高的隐蔽性。</p>
+        <p>未成年人作为限制民事行为能力人，报警往往需要监护人陪同，<span class="hightlight">家长在防范此类侵害中至关重要</span>。然而现实中，<span class="hightlight">许多家长在监管与教育上严重缺失</span>，未能有效保护孩子免受侵害。</p>
+    </div>
+
+    <div id="graph1" class="content_center">
+        <div class="dycharts_box">
+            <iframe src="https://dycharts.com/xshow/index.html?id=c_ba6e111d02135b8c9068f7720c96df60" width="600" height="510" scrolling="no" frameborder="0"></iframe>
+        </div>
+        <p id="p1">根据 “女童保护” 2019 年度统计报告显示仅有四成家长会对孩子上网进行严格监管，大多数家长并不能及时注意到孩子在网上是否结识陌生人，与陌生人进行了何种沟通以及是否受到来自网友的侵害。</p>
+    </div>
+
+    <div id="txt4" class="txt content_center">
+        <p>正如女童保护基金负责人孙雪梅女士说:“发生在网络平台的性侵，即便家长就住在孩子隔壁，可能也没有及时发现。”</p>
+        <p>同时，由于性教育的缺失，许多孩子并不知道自己已经被侵犯了，也没有意识到对方是在犯罪。</p>
+    </div>
+
+    <div id="graph2" class="content_center">
+        <div class="dycharts_box">
+            <iframe src="https://dycharts.com/xshow/index.html?id=c_4c8385022528eb69e765607a8c865b57" width="600" height="510" scrolling="no" frameborder="0" align=""></iframe>
+        </div>
+        <p id="p1">家庭性健康教育调查中，接近50%的家长表示，并不会主动对孩子进行性教育；
+            24.54%的家长表示，“孩子没问过，自己也不会提及”。
+            </p>
+    </div>
+
+    <div id="txt5" class="txt content_center">
+        <p>浙江省一位办理过数起隔空猥亵案件的检察官提到：“一些家庭对于性的开放程度和对儿童性教育的态度存在保守或者封闭的倾向，
+            这种观念的影响使得<span class="hightlight"> 父母对于隔空猥亵儿童犯罪的认知不足</span>，往往认为隔空猥亵犯罪是遥远的事情，因此，缺乏对于该类犯罪的重视和警惕，最终导致了悲剧。”</p>
+        <p>许多家长将这部分教育寄希望于学校，可遗憾的是，学校也没有尽到应有的义务。</p>
+    </div>
+
+    <div id="example2" class="example content_center">
+        <div class="left">
+            <div id="group1" class="text-group active" data-index="0">
+              <p>2012年，14岁的程珊接到一个自称宠物医生的男子的电话。她因缺乏基本的安全知识和自我保护的意识，当该男子明知她年幼，却教她如何用手自慰时，程珊不仅未能意识到这是严重的性侵害行为，反而将其视为“网恋对象”。“我当时根本不知道，生物课本里也有讲发育的章节，但是我们一般都跳过了，同学们会笑，老师只说让自己看看”。</p>
+            </div>
+            <div id="group2" class="text-group hidden" data-index="1">
+              <p>随后，该男友与她进行“性爱互动”并寄送情趣内衣，持续7个月后，程珊自行疏远对方，她感到恐惧，但从未意识到受害，也未曾求助。 </p>
+              <p>直到2021年读研时，她看到“隔空猥亵”的报道才恍然大悟，发文称“原来我曾经被侵犯”。这迟来近十年的认知，源于家长与学校性安全教育的缺失。</p>
+            </div>
+          </div>
+          <div class="right">
+            <img src="assets/one/插图2.png" alt="">
+          </div>
+    </div>
+
+    <div id="txt6" class="txt content_center">
+        <p><span class="hightlight">此外，平台监管存在漏洞，监测滞后、举报不力，使得案件未能及时被看到。</span></p>
+        <p>2020 年 5 月 7 日，最高检与国家监委、公安部等 9 部门会签下发了《关于建立侵害未成年人案件强制报告制度的意见》，明确规定了报告义务主体、应当报告情形以及追责机制。</p>
+        <div>
+            <img src="assets/one/插图3.png" alt="">
+        </div>
+    </div>
+
+    <div id="txt7" class="txt content_center">
+        <p>其中，网络平台作为网络服务提供者，属于密切接触未成年人行业的各类组织之一，有义务在发现未成年人遭受或疑似遭受网络性侵犯罪时，及时向公安机关报案或举报。</p>
+        <p>然而，对于已经发生的犯罪行为，<span class="hightlight">社交平台往往无法动态监管涉黄等图片或视频</span>。国内某头部社交平台的法务曾坦言：“AI 识别技术对变异关键词的拦截率不足 <span class="hightlight-number">30%</span>，而人工审核团队日均处理量超百万条，漏网之鱼必然存在”。</p>
+        <p>最后，<span class="hightlight">很多孩子受制于罪犯，不敢将此事宣之于口，孩子的沉默成为了罪犯的最后一道伪装。</span></p>
+        <p>加害者往往会利用孩子的年幼与无知，通过<span class="hightlight">胁迫与诱骗</span>手段制造沉默。</p>
+        <p>数据显示，<span class="hightlight-number"> 78 </span>起案件中，有<span class="hightlight-number">  33 </span> 起案件加害者使用了威胁、恐吓等胁迫手段。</p>
+    </div>
+
+    <div id="paopao1" class="paopao content_center">
+        <div class="wrapper">
+            <img id="img1" src="assets/气泡框1/1.png" alt="">
+            <img id="img2" src="assets/气泡框1/2.png" alt="">
+            <img id="img3" src="assets/气泡框1/3.png" alt="">
+            <img id="img4" src="assets/气泡框1/4.png" alt="">
+            <img id="img5" src="assets/气泡框1/5.png" alt="">
+            <img id="img6" src="assets/气泡框1/6.png" alt="">
+            <img id="img7" src="assets/气泡框1/8.png" alt="">
+            <img id="img8" src="assets/气泡框1/7.png" alt="">
+        </div>
+
+    </div>
+
+    <div id="txt8" class="txt content_center">
+        <p>另有<span class="hightlight-number">  45 </span>起案件中，犯罪分子以送礼物、假装恋爱、编造故事等方式进行诱骗，让孩子以为这是 “游戏”“秘密” 或者是 “你情我愿” 的关系。</p>
+    </div>
+
+    <div id="paopao2" class="paopao content_center">
+        <div class="wrapper">
+            <img id="img1" src="assets/气泡框2/1.png" alt="">
+            <img id="img2" src="assets/气泡框2/2.png" alt="">
+            <img id="img3" src="assets/气泡框2/3.png" alt="">
+            <img id="img4" src="assets/气泡框2/4.png" alt="">
+            <img id="img5" src="assets/气泡框2/5.png" alt="">
+            <img id="img6" src="assets/气泡框2/6.png" alt="">
+            <img id="img7" src="assets/气泡框2/7.png" alt="">
+            <img id="img8" src="assets/气泡框2/8.png" alt="">
+        </div>
+    </div>
+
+    <div id="txt9" class="txt content_center">
+        <p>这些手段的背后，是对未成年人心理防线的精确打击———让他们<span class="hightlight">在恐惧与依赖中</span>选择沉默。</p>
+    </div>
+    
+    <div class="title2_bg">
+        <div class="title2_img">
+            <img  src="assets/two/小标题2：立案.png" alt="">
+        </div>
+        
+    </div>
+
+    <div id="txt10" class="txt content_center">
+        <p>即使突破了沉默的屏障，<span class="hightlight">隔空猥亵案件的立案同样存在很大的困境。</span></p>
+    </div>
+    
+    <div id="story1" class="story content_center">
+        <div class="img">
+            <div id="person">
+                <img src="assets/two/插图2-1.png" alt="">
+            </div>
+            <div id="open_story">
+                <img  src="assets/two/点击看看她的故事.png" alt="">    
+            </div>
+            
+        </div>
+        
+        <p id="p1">“那段时间，我精神压力很大，在学校我没有办法集中精力读书，老师把我叫到办公室里问我的情况，我最终告诉了老师。老师帮我报了警，但是警察说我得有证据，我就把聊天记录给他看，但是他又说如果我没发私密照的话也不算犯罪，我说我发了，有私密照在他手里，我也不知道他有没有传给他身边的人。</p>
+        <p id="p2">警察说：“这就没事了，不传播出去就没事。”</p>
+        <p id="p3">我说我未成年，他们依旧说只要没发到网上去就不管，我问他也有很多我的信息怎么办，他们却告诉我，你的信息在网上都能查到。那之后我的抑郁症就复发了，每天都焦虑到睡不着觉。”</p>
+    </div>
+
+    <div id="txt11" class="txt content_center">
+        <p>在隔空猥亵案件中，<span class="hightlight">警察不受理的情况实然存在。</span></p>
+        <p>首先，对接群众报案的警察可能由于<span class="hightlight">自身专业程度不高，</span>对隔空猥亵的危害缺乏深刻认知，而不受理此类案件。</p>
+        <p><span style="font-size: 25px; background-color: rgb(211, 211, 211);">法律学者李耀青</span></p>
+        <p style="font-weight: bold;" >“由于专业化程度相对不足、身体素质较好，警力配置时，辅警多被安排辅助接处警、巡逻、社区警务等事务性工作”。</p>
+    </div>
+
+    <div id="txt12" class="txt content_center">
+        <p>辅警专业多样，专业化程度较低，导致他们在对接群众报案需求时，由于自身认知存在局限，弱化事件危害性，从而导致受案存在问题。</p>
+        <p>2024 年 9 月 24 日，一女子前往西安市公安局碑林分局报案，被告知无法受理后，该女子提出按法律法规，辅警即便不予立案也应出具《不予立案通知书》。辅警则口头答复称，“受理都受理不了，哪来的立案啊”。 “没有不受理通知书，不受理就是口头告知你，没办法受理。”</p>
+        <p>其次，正职警察会因为<span class="hightlight">忙碌或畏难</span>而不受理此类案件。事实上，警察日常工作量很大。数据显示，我国 <span class="hightlight-number"> 90% </span>以上的警察认为当前工作量是饱和甚至超负荷的。
+        </p>
+        <p>根据 2023 年数据，西方国家警力配比普遍超过万分之三十，而我国仅为万分之十一左右，平均每万人配备警力仅仅约为 13.4 名。</p>
+    </div>
+
+
+    <div id="graph3" class="content_center">
+
+        <div class="dycharts_box">
+            <h2>派出所每周工作时长数据统计图</h2>
+            <iframe src="https://dycharts.com/xshow/index.html?id=c_52b40d6d42514ace07d3f89293504ee4" width="600" height="510" scrolling="no" frameborder="0" align=""></iframe>
+        </div>
+    </div>
+
+
+
+    <div id="txt13" class="txt content_center">
+        <p>    而隔空猥亵类案件往往 <span class="hightlight"> 时空跨度大，需要耗费大量精力。</span></p>
+    </div>
+
+    <div id="txt14" class="txt content_center">
+        <p><span style="font-size: 25px; background-color: rgb(211, 211, 211);">江苏省宿迁市沭阳县检察院第一检察部副主任、四级检察官谷子青</span></p>
+        <p style="font-weight: bold;" >“网络服务提供者的网络服务器或者总部大多设置在北京、上海、广州、深圳、杭州等一二线城市，而大多网络性侵未成年人的犯罪发生地分布在全国各地，存在跨区划的情形。网络服务提供者报告当地公安部门后，因短期内难以查证犯罪地，就会导致推迟立案时间，引发后期侦查取证难等一系列问题”。</p>
+    </div>
+
+    <div id="txt15" class="txt content_center">
+        <p> 我们用受害者的案例询问了多名警察，他们表示办理此类案件时，要看这个账号是不是本人实名，就算是本人实名账户，如果不在本地，也不方便去抓，有一位警察坦言， <span class="hightlight"> “实话跟你说，我们一般不会接这种案子的”。</span></p>
+        <p> 与此同时，“隔空猥亵” 案件的办理最主要的证据就是电子数据和双方的聊天记录，但是它们容易被删除或覆盖，导致 <span class="hightlight"> 难以达到立案所需的证据标准。</span></p>
+
+    </div>
+    
+    <div id="story2" class="story content_center">
+        <div class="img">
+            <div id="person">
+                <img src="assets/two/插图2-2.png" alt="">
+            </div>
+            <div id="open_story">
+                <img  src="assets/two/点击看看她的故事.png" alt="">    
+            </div>
+            
+        </div>
+        
+        <p id="p1">4 年级的阿红就是因为证据不足没办法立案。2023 年，阿红母亲发现女儿通过微信与陌生网友进行露骨对话后，在情绪激愤中直接删除了对方的好友，导致全部聊天记录丢失 —— 这让关键证据链彻底断裂。</p>
+        <p id="p2">报警时证据不足，最后只能凭借对方重新加回阿红后聊的几句话在微信平台举报。</p>
+    </div>
+
+    <div id="txt16" class="txt content_center">
+        <p><span style="font-size: 25px; background-color: rgb(211, 211, 211);">盈科律师事务所沈阳分所的刘鹤律师</span></p>
+        <p style="font-weight: bold;" >“在网络隔空猥亵案件中，部分犯罪行为是通过视频连线实施的，犯罪者实时引导受害者进行不当行为，若未及时录屏，受害者向家长反映并报警时，将面临无直接证据的困境，导致案件难以达到立案标准”。</p>
+    </div>
+
+
+    <div class="title3_bg">
+        <div class="title3_img">
+            <img  src="assets/three/小标题3：侦查.png" alt="">
+        </div>
+    </div>
+
+    <div id="txt17" class="txt content_center">
+        <p>而立案后，在<span class="hightlight">侦查阶段</span>，警方需要全面调查嫌疑人的所有电子设备和网络账号，确认所有的受害人情况，从而还原案件的真相，保证公正的审判。对此，<span class="hightlight">公检和警方都面临着不小挑战。</span></p>
+        <p>隔空猥亵案件的<span class="hightlight">嫌疑人常常不配合</span>，在此情况下获取证据还原真相非常困难。
+        </p>
+        <p>2021 年 6 月，昆山市检察院受理一起由公安机关移送审查起诉的网络性侵害未成年人案，被告人利用该案无线下客观证据的情况，对明知被害人真实年龄的事实进行辩解和否认。最后，检察机关介入并引导公安侦查，引导公安部门对收集的电子数据进行研判，经过长时间努力，才终于在海量数据中固定能够证实被告人 “可能明知” 被害人年龄的相关证据。</p>
+    </div>
+
+    <div id="jianbao" class="content_center">
+        <div id="jianbao1">
+            <p id="p1">案件简报</p>
+            <p id="p2">案件编号:NET-2025-014</p>
+            <p id="p3">案件性质:网络性侵案件</p>
+            <p id="p4">案情摘要：犯罪嫌疑人利用 QQ 和网盘平台，向多名未成年人索要隐私视</p>
+            <p id="p5">频。关键电子证据可能存在于手机或云端。</p>
+            <P id="p6"><span style="background-color: #b4b4b4;font-size: 16px;cursor: pointer; padding:5px;">点击查看具体流程</span></P>
+        </div>
+        <div  style="display: none;" id="jianbao2">
+            <p id="p1">第一步：证据源选择</p>
+            <p id="p2">操作提示</p>
+            <p id="p3">请选择首要取证目标</p>
+            <p style="font-weight: bold;" id="p4" style="cursor: pointer;">1. 手机数据-含QQ加密缓存、相册残留文件</p>
+            <p  style="font-weight: bold;" id="p5" style="cursor: pointer;" >2. 云端证据-含网盘隐藏空间、QQ聊天云记录</p>
+        </div>
+        <div  style="display: none;" id="jianbao3">
+            <p id="p1">“目标锁定：嫌疑人华为P40 Pro（IMEI:86*229）”</p>
+            <p id="p2">“QQ聊天记录仅存30天（案发距今32天）”</p>
+            <p id="p3">操作选项</p>
+            <p style="font-weight: bold;" id="p4" style="cursor: pointer;" >1. 调取运营商备份（成功率75%）</p>
+            <p style="font-weight: bold;" id="p5" style="cursor: pointer;" >2. 切换手机取证</p>
+        </div>
+        <div  style="display: none;" id="jianbao4">
+            <p id="p1">“目标锁定：百度网盘账号（ID：蝶恋花**）”</p>
+            <p id="p2">“QQ缓存文件已AES-256加密（最后访问：2025-03-15 21：46）”</p>
+            <p id="p3">操作选项</p>
+            <p style="font-weight: bold;" id="p4" style="cursor: pointer;" >1. 启动GPU暴力破解（成功率80%）</p>
+            <p style="font-weight: bold;" id="p5" style="cursor: pointer;" >2. 切换云端取证</p>
+        </div>
+        <div style="display: none;" id="jianbao5">
+            <p id="p1">&nbsp;</p>
+            <p id="p2">&nbsp;</p>
+            <p style="font-weight: bold;" id="p3">成功：“成功提取3项关键证据+1项干扰项”</p>
+            <P id="p4"><span style="background-color: #c1c1c1;cursor: pointer; padding:5px;">再来一次</span></P>
+        </div>
+    </div>
+
+    <div id="txt18" class="txt content_center">
+        <p>在此类案件中，还时常存在<span class="hightlight">小号泛滥、账号被注销以及聊天记录被删除从而导致证据消失</span>的情况。数据显示，在 78 起案例中，QQ 是最主要的作案平台，共有 61 起案例发生在 QQ 平台，占比 78%。专家分析这与<span class="hightlight">QQ 平台不要求实名认证</span>有很大关系。</p>
+    </div>
+
+
+    <div id="graph4" class="content_center">
+        <div class="dycharts_box">
+            <h2>隔空猥亵主要作案平台</h2>
+            <iframe src="https://dycharts.com/xshow/index.html?id=c_065b0e9e7bad80ea11f206f16d10221d"  width="600" height="510" scrolling="no" frameborder="0" align=""></iframe>
+        </div>
+    </div>
+
+    
+    <div id="txt19" class="txt content_center">
+        <p>广州南沙区检察院的检察官贺星星曾接手过一起隔空猥亵案件，查到嫌疑人有六七个 QQ 号，但据本人交代，还有过其他 QQ 号，只是账号找不回来。随着账号无法登录，聊天记录没有了，某些证据也消失了。</p>
+        <p>对于被删除的电子数据，侦查人员往往只能采取技术手段进行恢复，而这常常面临着烦琐、严格的审批程序，且也存在无法全部恢复的问题，这些都增加了调查取证的难度。</p>
+        <p>即便嫌疑人已供述明确，电子数据也初步指向多名未成年被害人，<span class="hightlight">但由于被害人数的差异直接影响量刑结果</span>，案件侦办仍需逐一核实每一名被害人的身份并获取其证言，才能依法认定事实、准确适用刑罚。</p>
+        <div style="width: 540px; margin:0 auto; margin-top: 100px;margin-bottom: 100px;">
+            <img src="assets/three/555.png" alt="" style="width: 100%;">
+        </div>
+        <p>2023 年，犯罪人舒某终于被缉拿归案，其供述与电子数据均显示其曾对 40 余名未成年人实施 “隔空猥亵” 行为。        </p>
+        <p>
+            但由于犯罪行为持续时间较长，部分关键聊天记录已被删除，办案人员只能依赖其手机中保存的受害人照片和视频，借助人脸识别技术进行身份甄别。然因部分受害人年龄较小，尚无可比对的身份数据，或识别结果无法匹配，<span class="hightlight">取证工作因此受到严重阻碍</span>。
+        </p>
+        <p>另一方面，由于网络性侵案件往往涉及未成年人，被害人及其家庭往往出于羞耻、恐惧或对司法系统的不信任，拒绝配合取证。
+        </p>
+        <p><span class="hightlight">受害人家属的态度对案件推进影响尤大</span>。2023 年，在办理舒某案时，李思瑶办案组联合公安机关专程前往山西太原试图核实其受害情况，却遭到其母亲坚决拒绝，理由是 “别再打电话来了，我们不用追究他（嫌疑人）责任，也不需要你们帮助”“就因为你们，现在孩子爸爸都知道了”。</p>
+        <p>李思瑶说，当前，<span class="hightlight">办理 “隔空猥亵” 案面临的最大难点之一就是受害未成年人家长不配合，以及对孩子的不理解和责备</span>。</p>
+    </div>
+
+    <div class="title4_bg">
+        <div class="title4_img">
+            <img  src="assets/four/新的小标题4.png" alt="">
+        </div>
+    </div>
+
+    <div id="txt20" class="txt content_center">
+        <p>在法理层面，虽然网络性侵犯罪者没有与被害儿童有身体接触，但经最高人民检察院认定，该行为与实际接触儿童身体的猥亵行为具有相同的<span class="hightlight">社会危害性</span>。</p>
+    </div>
+
+    <div id="example3" class="example content_center">
+        <div class="left">
+            <div id="group1" class="text-group active" data-index="0">
+              <p>2007 年，23 岁的潘志学通过网络结识 11 岁的被害人王某，二人通过 QQ 建立网络性虐恋（SM）关系，直到 2014 年他才被捕。</p>
+            </div>
+            <div id="group2" class="text-group hidden" data-index="1">
+              <p>期间，潘志学为了控制王某，将王某与其的 QQ 聊天记录、裸聊视频及截图予以保存，并用其对被害人王某进行威胁，迫使王继续与其保持性虐恋关系，甚至强迫王某填写 “女 M 自评表”、写保证书、检讨书和喝尿，王某饱受折磨。 </p>
+            </div>
+          </div>
+          <div class="right" style="height: 250px;">
+            <img src="assets/four/插图3-1.png" alt="">
+          </div>
+    </div>
+
+    <div id="txt21" class="txt content_center">
+        <p>武汉市检察院的主任张琦提到，从 2019 年到 2021 年，武汉市涉及网络性侵害未成年人犯罪案件中大多数未成年被害人患上了心理疾病，出现失眠、噩梦、抑郁甚至自残的症状，受害者的家庭成员，也都出现不同程度的心理问题。
+        </p>
+        <p>同时，隔空猥亵案件中的<span class="hightlight">伤害持续时间往往很长</span>。大约 70% 的隔空猥亵行为，从实施到被发现常常间隔许久。在潘志学和王某案中，隔空猥亵持续时间甚至<span class="hightlight">长达七年</span>。</p>
+    </div>
+
+    <div id="graph5" class="content_center">
+
+        <div class="dycharts_box">
+            <p>隔空猥亵持续时间</p>
+            <iframe src="https://dycharts.com/xshow/index.html?id=c_8e8e8b0b6b2f2668cb0dc117b16608df" width="600" height="510" scrolling="no" frameborder="0" align=""></iframe>
+        </div>
+    </div>
+
+    <div id="txt22" class="txt content_center">
+        <p>除了隔空伤害被害者，罪犯往往变本加厉。他们常以曝光被害人私密照片或视频相要挟，迫使其线下见面，继而实施猥亵甚至强奸。
+        </p>
+        <p>七年中，罪犯潘志学就以泄露私密照为由多次胁迫王某与其见面并实施了猥亵、强奸。在裁判文书网公开的 78 起案例中，有 32 起案件<span class="hightlight">从线上猥亵转变成线下伤害</span>，占比近乎 41%。</p>
+    </div>
+
+    <div id="graph6" class="content_center">
+
+        <div class="dycharts_box">
+            <h2>隔空猥亵伤害方式</h2>
+            <iframe src="https://dycharts.com/xshow/index.html?id=c_ae15bee653570d5c59b12367e32d11a0" width="600" height="510" scrolling="no" frameborder="0" align=""></iframe> 
+        </div>
+    </div>
+
+    <div id="txt23" class="txt content_center">
+        <p>潘志学的种种行为，符合刑法第二百三十七条规定，可以强制猥亵罪或者猥亵儿童罪定罪处罚。依照法律，他被判处强奸罪、猥亵儿童罪、强制猥亵妇女罪，数罪并罚，判处有期徒刑八年七个月。
+
+        </p>
+        <p>然而，“即便司法解释规定了部分对未成年人的网络猥亵犯罪认定标准，但网络隔空猥亵犯罪在<span class="hightlight" id="click1"> 行为方式</span>、<span class="hightlight" id="click2">手段强制性</span>、<span class="hightlight" id="click3">加重情节</span> 上仍存在认定困境。” 北京豪亨律师事务所律师李长明说道。（点击⾼亮⽂本查看具体困境）
+        </p>
+        <div>
+            <div id="dialog_res1" class="dialog_res">
+                <p><span class="hightlight">“实施淫秽行为” 在界定上就相对模糊，</span>“淫秽” 一词的内涵本身就有很强的规范评价色彩、边界并不清晰，而在网络隔空实施的新情境下对其界定就更加困难。</p>
+                <span id="close1" class="close">x</span>
+            </div>
+            <div id="dialog_res2" class="dialog_res">
+                <p>行为人还可能<span class="hightlight">通过网络通讯交互手段隔空实施其他可能构成猥亵犯罪的行为，</span>例如通过网络通讯工具向受害人发送自己裸照、通过视频聊天向受害人做出具有性意义的行为或诱骗受害人网上观看自己或他人实施的具有性意义的行为等。此时，是否也能直接认定为强制猥亵罪或猥亵儿童罪等猥亵犯罪就缺乏明确的认定标准，<span class="hightlight">存在认定难题</span>。</p>
+                <span id="close2" class="close">x</span>
+            </div>
+            <div id="dialog_res3" class="dialog_res">
+                <p>在<span class="hightlight">加重情节认定</span>层面，网络隔空猥亵的非接触特点导致<span class="hightlight">聚众、公共场所当众等猥亵犯罪加重情节的认定出现了新的难题</span>，从而影响对网络隔空猥亵的有效惩处。一方面，传统聚众是指同一时空条件下聚集 3 人或 3 人以上当面实施猥亵犯罪的情形，因为猥亵实施的当面性，受害人能够感知实施猥亵行为的众人而受到更强烈的压制，聚众实施猥亵行为的众人彼此也具有共同犯意而实施更严重的共同猥亵。但在网络隔空猥亵的情形下，聚集 3 人或 3 人以上实施猥亵是通过网络通讯工具或平台来隔空实施，由于网络通讯设置单向传输或有限权限等原因，受害人可能并不知晓隔空猥亵者存在聚众情形，也不知道聚众猥亵者的身份与人数，甚至共同实施猥亵行为者也并不知道其他参与猥亵行为者的具体身份与人数，此时是否可以认定聚众就有待进一步明确。</p>
+                <span id="close3" class="close">x</span>
+            </div>
+        </div>
+        
+    </div>
+
+    <div id="txt24" class="txt content_center">
+        <p>
+            而这些法律要素认定的模糊导致了<span class="hightlight">案件裁定面临一系列问题</span>，例如心理侵害程度是确定罪量的重要标准，但是刘鹤律师分析：“被害人的<span class="hightlight">精神损害赔偿可以在民事诉讼方面进行争取，但是精神损害赔偿的量化评估存在较大难度</span>，缺乏明确的量化标准，一般的精神损害赔偿并不高，难以覆盖精神伤害”。
+        </p>
+    </div>
+
+    <div class="title5_bg">
+        <div class="title5_img">
+            <img  src="assets/five/小标题5：破局 终走出的阴霾.png" alt="">
+        </div>
+    </div>
+    <div id="txt25" class="txt content_center">
+        <p>
+            尽管司法实践中仍有许多堵点与难题，但并不是每一个案件都被困在沉默与拖延中。在 78 起网络猥亵案件中，也有一些孩子最终被看见，
+            <span class="hightlight">一些正义并没有迟到</span>。
+        </p>
+    </div>
+
+    <div id="story3" class="story content_center">
+        <div class="img">
+            <div id="open_story" id="person">
+                <img src="assets/five/插图5-1.png" alt="">
+            </div>
+        </div>
+        
+        <p id="p1">在珠海市中级人民法院2025年5月20日发布普法十大典型案例中，加害者李某在网络游戏平台上与11岁被害人结识，在明知被害者是儿童的情况下，李某仍以微信红包诱骗严某向其发送裸露隐私部位的自拍照，此后又要求严某又以照片威胁发送裸露隐私部位的视频，被害者未予理会并在告知其母亲后报案。法院以猥亵儿童罪判处被告人李某有期徒刑一年六个月。</p>
+    </div>
+
+
+    <div id="txt27" class="txt content_center">
+        <p>
+            正是在<span class="hightlight">孩子鼓起勇气说出真相、家长及时相信、司法系统高效配合的共同推动下</span>，这起案件成为少数能在短时间内完成立案、取证、审判的成功样本。
+        </p>
+        <p>
+            这警醒我们，当孩子被认真倾听，当家庭、社会与制度形成闭环，正义并不遥远。而要实现这一切，首先需要<span class="hightlight">法律跟随时代的变化不断细化</span>，斩断藏在网络角落里的一双双隐秘但可怖的黑手。
+        </p>
+    </div>
+    <div id="timeDateFather" style="width: 1100px; margin:0 auto;position: relative;">
+        <div id="need_fix" style="
+        position: absolute;
+        font-size: 111px;
+        top:0px;">20</div>
+        <div id="timeDate" class="content_center">
+
+            <div class="item">
+                <div>18</div>
+                <div>11月</div>
+                <div>
+                    <p>最高人民检察院在发布的第十一批指导性案例中指出，“网络环境下，以满足性刺激为目的，虽未直接与被害儿童进行身体接触，但是通过 QQ、微信等网络软件，以诱骗、强迫或者其他方法要求儿童拍摄、传送暴露身体的不雅照片、视频，行为人通过画面看到被害儿童裸体、敏感部位的，是对儿童人格尊严和心理健康的严重侵害，与实际接触儿童身体的猥亵行为具有相同的社会危害性，应当认定构成猥亵儿童罪。”
+                    </p>
+                    </div>
+            </div>
+
+            <div class="item">
+                <div>20</div>
+                <div>11月</div>
+                <div style="margin-top: 30px; padding-bottom: 60px;">我国修订的《未成年人保护法》第 54 条明确禁止对未成年人实施性侵害、性骚扰行为。
+                </div>
+            </div>
+
+            <div class="item">
+                <div>23</div>
+                <div>5月</div>
+                <div>最高人民法院、最高人民检察院联合发布的《关于办理强奸、猥亵未成年人刑事案件适用法律若干问题的解释》（下称《解释》）第九条第一款规定，“胁迫、诱骗未成年人通过网络视频聊天或者发送视频、照片等方式，暴露身体隐私部位或者实施淫秽行为，符合刑法第二百三十七条规定的，以强制猥亵罪或者猥亵儿童罪定罪处罚。”
+                </div>
+            </div>
+
+            <div class="item">
+                <div>23</div>
+                <div>6月</div>
+                <div>中央网信办发布《关于开展 “清朗・2023 年暑期未成年人网络环境整治” 专项行动的通知》，将隔空猥亵问题纳入整治重点，重拳打击涉未成年人违法违规行为，旨在进一步强化未成年人网络保护，营造健康安全网络环境。
+                </div>
+            </div>
+
+            <div class="item">
+                <div>24</div>
+                <div>1月</div>
+                <div style="border-bottom: none;">《未成年人网络保护条例》则细化了《网络安全法》《未成年人保护法》的内容，进一步有针对性地完善了在网络时代保护未成年人的机制。该条例规定，网络产品和服务提供者应当采取有效措施防止任何组织和个人制作、复制、发布、传播或者持有有关未成年人的淫秽色情网络信息，若在其网络产品和服务中发现此类信息，则应当立即停止传输，采取删除、屏蔽、断开链接等处置措施，防止信息扩散，保存有关记录，向网信、公安等部门报告，并对制作、复制、发布、传播上述信息的用户采取警示、限制功能、暂停服务、关闭账号等处置措施。
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="to_right" class="content_center">
+            <div class="o"></div>    
+        <div class="content">
+            <p>在法律之外，<span class="hightlight"> 社会各方的关注更不容忽视</span>。</p>
+            <p>
+                首先，<span class="hightlight">家庭层面</span>。家长们需要承担起<span class="hightlight">性教育</span>的责任，适时地与孩子进行性启蒙对话，密切关注孩子的日常行为。2023 年，10 岁的女孩娜娜面对网络性骚扰，第一时间就告诉了母亲，她们共同拉黑了对方，“我平时就会给她看一些性教育科普的视频，虽然父母会保护孩子，但是也不能避免孩子不会遇到猥亵，尤其网络，防不胜防。断网，不让孩子碰手机这种，感觉是没用，父母应该教给孩子的是应该怎样保护自己”。
+            </p>
+            <p>其实不仅是家长，性教育的开展应该多维立体，<span class="hightlight">学校的责任</span>不容忽视。贺星星建议学校要针对不同年龄段、不同性别的学生开设专门的性教育课，“每个阶段的孩子的需求不一样，他们的理解能力、辨识能力也不一样，这样才会真正起到效果”。</p>
+        </div>
+    </div>
+
+    <div id="to_left" class="content_center">
+        <div class="o"></div>    
+        <div class="content">
+            <p>其实，<span class="hightlight"> 网络平台必须承担主体责任，事前及时预警，事后固定证据</span>。</p>
+            <p>
+                
+    对此，谷子青建议通过人工智能技术实现对涉嫌猥亵等行为的自动识别与监测，同时为避免该项技术发生 “误判” 的情形，在抓取关键帧进行分析的同时也可以从文本、图片以及语音等多个维度进行辅助识别，确保技术价值最大功用的有效发挥。
+
+            </p>
+            <p>
+                除了向公安机关及时报案之外，北京市东城区人民法院刑事审判庭二级法官、北京法院司法实务研究专家石魏强调网络平台要及时固定、保存相关证据，以便司法机关追究相关人员的民事、行政、刑事责任。</p>
+        </div>
+    </div>
+
+
+    <div class="last_content">
+        <div class="item">
+            <p>台湾作家蔡宜文说，</p>
+            <p>任何关于性的暴力，</p>
+            <p>都不是由施暴者独立完成的，</p>
+            <p>而是由整个社会协助施暴者完成的。</p>
+        </div>
+        <div class="item">
+            <p>日益复杂的网络空间，成为犯罪分子的 “狩猎场”，</p>
+            <p>司法范围的灰色地带，家庭的缺位和性教育的缺失，</p>
+            <p>为 “隔空猥亵” 的滋生提供了隐蔽温床，
+            </p>
+            <p>角落里的罪恶，腐蚀着孩子的童真，</p>
+            <p>我们与恶的距离，其实并不遥远。</p>
+        </div>
+        <div class="item">
+            <p>所以，在追诉的漫漫长路中，</p>
+            <p>请相信并求助于不断进步的法律，</p>
+            <p>让藏在暗处的不法之徒，</p>
+            <p>得到他们应有的惩罚。</p>
+        </div>
+
+    </div>
+
+
+    <div id="last_img" class="content_center">
+        <img src="assets/five/eee.png" alt="">
+    </div>
+
+
+    <div class="content_center" style="margin-bottom: 300px; margin-top: 300px; line-height: 50px;">
+        <h3>参考资料：</h3>
+        <p>[1]最高法：今年上半年线上“隔空猥亵”等涉网性侵案件增加 _光明网 (gmw.cn)</p>
+<p>[2]陈诺｜网络隔空猥亵儿童犯罪行为治理刍议_澎湃号·政务_澎湃新闻-The Paper</p>
+<p>[3]法治日报|要把“隔空”性侵害未成年人的网络截断 (thepaper.cn)</p>
+<p>[4]孩子被隔空猥亵后，不愿报警的家长把她打了一顿_腾讯新闻 (qq.com)</p>
+<p>[5]《最高检向十三届全国人大常委会报告开展未成年人检察工作情况》，载最高人民检察院官网</p>
+<p>[6]朱光星.网络隔空猥亵儿童的定罪研究——以保护儿童为分析视角[J].中国政法大学学报,2022,(04):206-217.</p>
+<p>[7]袁野.网络隔空猥亵儿童行为的刑法定性[J].青少年犯罪问题,2019,(04):12-20. (qq.com)</p>
+<p>[8]雷浩.网络隔空猥亵儿童犯罪防控难点及对策研究——基于52份刑事判决书为分析样本[J].预防青少年犯罪研究,2024,  (03):40-47.(qq.com)</p>
+<p>[9]邵守刚.猥亵儿童犯罪的网络化演变与刑法应对——以2017-2019年间的网络猥亵儿童案例为分析样本[J].预防青少年犯罪研究,2020,(03):48-57.(qq.com)</p>
+    </div>
+
+    <script src="js/index.js"></script>
+</body>
+</html>
