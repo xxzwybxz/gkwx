@@ -1144,13 +1144,13 @@ window.addEventListener("scroll", (event) => {
                                 img7.style.opacity = '1';
                                 setTimeout(()=>{
                                     img8.style.opacity = '1';
-                                },1500)
-                            },1500)
-                        },1500)
-                    },1500)
-                },1500)
-            },1500)
-        },1500)
+                                },500)
+                            },500)
+                        },500)
+                    },500)
+                },500)
+            },500)
+        },500)
     }
 
     if (scrollTop >= txt8.offsetTop - txt_distinct) {
@@ -1184,13 +1184,13 @@ window.addEventListener("scroll", (event) => {
                                 img7.style.opacity = '1';
                                 setTimeout(()=>{
                                     img8.style.opacity = '1';
-                                },1500)
-                            },1500)
-                        },1500)
-                    },1500)
-                },1500)
-            },1500)
-        },1500)
+                                },500)
+                            },500)
+                        },500)
+                    },500)
+                },500)
+            },500)
+        },500)
     }
 
     if (scrollTop >= txt9.offsetTop - txt_distinct) {
